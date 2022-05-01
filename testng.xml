@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Farah/Desktop/BooksApiAutomationFramework">
+        <classes>
+            <class name="Books.AddBookTests">
+                <methods>
+                    <include name="addValidBook"/>
+                    <include name="addValidBook_NullTitleDescriptionAndExcerpt"/>
+                    <include name="addInvalidBook_NoId"/>
+                    <include name="addInvalidBook_NullId"/>
+                    <include name="addInvalidBook_NoPageCount"/>
+                    <include name="addInvalidBook_NullPageCount"/>
+                    <include name="addInvalidBook_NoPublishDate"/>
+                    <include name="addInvalidBook_NullPublishDate"/>
+                    <include name="addInvalidBook_EmptyBody"/>
+                </methods>
+            </class>
+            <class name="Books.DeleteBookTests">
+                <methods>
+                    <include name="deleteValidBook"/>
+                    <include name="deleteInvalidBook_StringId"/>
+                    <include name="deleteInvalidBook_NoId"/>
+                </methods>
+            </class>
+            <class name="Books.GetBookTests">
+                <methods>
+                    <include name="getValidBook"/>
+                    <include name="deleteInvalidBook_StringId"/>
+                </methods>
+            </class>
+            <class name="Books.GetBooksTests">
+                <methods>
+                    <include name="getBook"/>
+                </methods>
+            </class>
+            <class name="Books.UpdateBookTests">
+                <methods>
+                    <include name="updateValidBook"/>
+                    <include name="updateInvalidBook_NoId"/>
+                    <include name="updateInvalidBook_EmptyBook"/>
+                    <include name="updateInvalidBook_NoBook"/>
+                    <include name="updateInvalidBook_EmptyBody"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

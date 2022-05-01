@@ -1,0 +1,13 @@
+utils\PropsFile$URLs.class
+APIs\GetBooksLogic.class
+utils\ExcelFileReader.class
+APIs\AddBookLogic.class
+APIs\DeleteBookLogic.class
+APIs\UpdateBookLogic.class
+models\Book.class
+utils\HelperFunctions.class
+utils\PropsFile$filePaths.class
+utils\PropsFile.class
+dataGeneration\BooksGenerator.class
+APIs\GetBookLogic.class
+assertions\BooksAssertion.class
