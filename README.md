@@ -2,6 +2,14 @@
 
 Book Rest APIs tests using : https://fakerestapi.azurewebsites.net/index.html 
 
+Prerequisites:
+<br>
+
+    •	Install Lombok plugin
+    
+    •	Install TestNG plugin
+
+
 A RestAssured API automation framework using:
 <br>
 
@@ -14,6 +22,8 @@ A RestAssured API automation framework using:
     •	TestNG
     
     •	Reporting with Extent report
+    
+    •	Lombok library: An annotation-based Java library that allows you to reduce boilerplate code 
 
 # Project Structure:
   The framework is divided into 2 parts:
